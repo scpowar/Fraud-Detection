@@ -49,3 +49,7 @@ git push -u origin master
 </pre>
 
 #### [Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+
+#### Flow in Github
+
+Flow in Github(https://github.com/scpowar/Fraud-Detection/blob/master/Flow%20in%20Github.png)
