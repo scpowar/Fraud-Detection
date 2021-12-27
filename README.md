@@ -28,3 +28,22 @@ cd <directory name> - to navigate to the directory
 
 pwd - present working directory
 </pre>
+
+#### three main stages:
+
+<pre>
+Modified: When you change any code in the file.
+
+Staged: When we add the file using ‘git add’, it goes into the staging area.
+
+Committed: When you commit all the changes in the files that were in the staging area. 
+</pre>
+
+#### Commands used
+
+<pre>
+git add .
+git status
+git commit -m “message”
+git push -u origin master
+</pre>
