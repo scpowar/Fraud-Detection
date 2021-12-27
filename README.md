@@ -52,4 +52,4 @@ git push -u origin master
 
 #### Flow in Github
 
-![Flow in Github] (https://github.com/scpowar/Fraud-Detection/blob/master/Flow%20in%20Github.png)
+![Flow in Github](https://github.com/scpowar/Fraud-Detection/blob/master/flow_in_github.png?raw=true)
