@@ -53,3 +53,24 @@ git push -u origin master
 #### Flow in Github
 
 ![Flow in Github](https://github.com/scpowar/Fraud-Detection/blob/master/flow_in_github.png?raw=true)
+
+#### Git Log
+
+<pre>
+This command shows you the commit details. It lists out the commits made in the repository in reverse-chronological order, that is, the most recent commits show up first. It shows commits with the following details:
+
+1. The commit ID or SHA
+2. Author’s name (who made the commit)
+3. Date and time
+- For a shorter version of git log, you have git log --oneline
+</pre>
+
+#### Git Revert and Reset
+
+<pre>
+git revert HEAD   <i># → Reverts the project to the previously committed version </i>
+
+git reset --hard <commit ID>  <i># → To go back to a commit that was 3-4 commits back</i>
+</pre>
+
+![Git Revert and Reset](https://github.com/scpowar/Fraud-Detection/blob/master/flow_in_github.png?raw=true)
