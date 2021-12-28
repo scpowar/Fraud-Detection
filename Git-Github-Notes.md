@@ -1,4 +1,4 @@
-Using Git & Github example
+# Using Git & Github example
 
 #### You have configured a git account with your local system. For the first-time Git configuration, you use the following commands:
 <pre>
@@ -79,3 +79,34 @@ git reset --hard #commit_ID  <i># → To go back to a commit that was 3-4 commit
 </pre>
 
 ![Git Revert and Reset](https://github.com/scpowar/Fraud-Detection/blob/master/git-revert-reset.png?raw=true)
+
+#### Working with branches
+
+<pre>
+
+git branch' command will show you —
+The list of branches in your repository and the branch you are on. (The HEAD will point to the branch you are currently on.)
+
+git checkout -b model <i>#to create a new branch</i>
+</pre>
+
+##### Pull and merge 
+<pre>
+To merge it to the main branch, we used the github UI to create the pull request. 
+
+Pull request means to request the merger of branches. In our case, there were no conflicts and the status was shown as ‘able to merge’. 
+
+ 
+
+Conflicts arise when you have different codes in the same file in different branches. Once the pull request was created, we went to the pull request tabs and merged the two branches. 
+</pre>
+
+##### Checkout
+<pre>
+checkout command can be used to switch branches. The syntax to switch to another branch is given as follows:
+
+git checkout #destination-branch-name
+ 
+
+The command given in this option follows the syntax given above and will switch from the current branch to an existing branch named 'feature'. Hence, this option is the correct choice.
+</pre>
